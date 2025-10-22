@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS Customers (
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215) UNIQUE,
     phone VARCHAR(20),
-    address VARCHAR(20)
+    address TEXT
 );
 
 -- Create Orders table
